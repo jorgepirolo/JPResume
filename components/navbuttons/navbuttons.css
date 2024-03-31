@@ -1,0 +1,9 @@
+.navbutton {
+  font-size: 1.2rem;
+}
+
+a:hover {
+  background: linear-gradient(transparent 85%, var(--xanthous) 100%);
+  color: var(--xanthous);
+  transition: 0.3s;
+}

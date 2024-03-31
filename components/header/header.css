@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  padding: 30px 5% 30px 5%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gunmetal);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 180px;
+  z-index: 1;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

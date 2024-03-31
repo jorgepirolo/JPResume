@@ -1,0 +1,42 @@
+#aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  scroll-margin-top: 200px;
+}
+
+#aboutme > img {
+  border-radius: 100%;
+  border: inset 2px var(--ghost-white);
+  height: 250px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.skill {
+  padding: 5px 20px;
+  background-color: var(--cerulean);
+  border-radius: 20px;
+  color: var(--xanthous);
+}
+
+.define {
+  padding: 10px 50px;
+  text-align: center;
+  max-width: 1100px;
+}
+
+#aboutme > a {
+  font-weight: bold;
+  font-size: 20px;
+}

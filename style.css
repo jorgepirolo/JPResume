@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --gunmetal: #002f3b;
+  --charcoal: #163a4a;
+  --midnight-green: #094254ff;
+  --midnight-green-2: #00495aff;
+  --caribbean-current: #00657cff;
+  --xanthous: #fbb84b;
+  --paynes-gray: #2a637aff;
+  --cerulean: #33748e;
+  --ghost-white: #f1f1f6;
+  --white: #ffffffff;
+
+  --border-radius: 20px;
+
+  --padding-s: 10px;
+  --padding-m: 12px;
+  --padding-l: 15px;
+  --padding-xl: 20px;
+
+  --margin-s: 10px;
+  --margin-m: 12px;
+  --margin-l: 15px;
+  --margin-xl: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+}
+
+.noshow {
+  display: none;
+}
+
+main {
+  background: linear-gradient(var(--gunmetal), var(--cerulean));
+  margin-top: 174px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  background-color: var(--charcoal);
+}
+footer > p {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+button {
+  background-color: var(--xanthous);
+  color: var(--caribbean-current);
+  align-self: center;
+  text-align: center;
+  border: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 25px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.but2 {
+  display: none;
+}

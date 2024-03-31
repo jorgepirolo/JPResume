@@ -1,0 +1,40 @@
+#education > * img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+  background-color: var(--xanthous);
+  padding: 5px;
+}
+
+#education {
+  scroll-margin-top: 300px;
+  position: relative;
+  margin-top: 50px;
+}
+
+#education > h2 {
+  position: absolute;
+  right: 20%;
+  top: -20px;
+  color: var(--xanthous);
+}
+
+.educard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+#education > .time {
+  margin-left: 20%;
+  border-left: solid 5px var(--xanthous);
+  height: 500px;
+}
+
+#education > .time > .cards {
+  position: relative;
+  left: -55px;
+}

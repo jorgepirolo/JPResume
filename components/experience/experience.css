@@ -1,0 +1,68 @@
+#experience > * img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  object-fit: contain;
+  border: solid 5px var(--xanthous);
+  background-color: var(--white);
+  padding: 5px;
+  cursor: pointer;
+}
+
+#experience {
+  scroll-margin-top: 300px;
+  position: relative;
+  margin-top: 50px;
+}
+
+#experience > h2 {
+  position: absolute;
+  left: 17%;
+  top: -20px;
+  color: var(--xanthous);
+}
+
+.expcard {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: end;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.expcard > div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+#experience > .time {
+  margin-right: 20%;
+  border-right: solid 5px var(--xanthous);
+  height: 500px;
+}
+
+#experience > .time > .cards {
+  position: relative;
+  right: -55px;
+}
+
+.descript {
+  transition: 1s;
+  position: absolute;
+  opacity: 0;
+  display: none;
+}
+
+.showp {
+  display: block;
+  position: absolute;
+  background-color: var(--ghost-white);
+  color: var(--charcoal);
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  width: 80%;
+  left: 10%;
+  opacity: 1;
+}
